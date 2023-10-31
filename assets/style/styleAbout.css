@@ -1,0 +1,87 @@
+.aboutWrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.personImage{
+    width: 160px;
+}
+
+.person{
+    margin-bottom: 50px;
+}
+
+.person p{
+    margin-bottom: 0px;
+}
+
+.aboutWrapper h2, h3{
+    font-size: 2rem;
+    margin-top: 0px;
+}
+.person h3{
+    font-size: 1.5rem;
+}
+
+.aboutWrapper{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.aboutWrapper img{
+    max-width: 70vw;
+}
+
+.companyImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.companyImg h2{
+    font-size: 1.35rem;
+}
+
+#specialThanks{
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2, h3, p, li, button {
+    font-family: Obvia;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 1004px) {
+    .aboutWrapper{
+        display: flex;
+        gap: 10px;
+        margin-top: 43px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .topPersons{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        align-content: center;
+    }
+    .topPersons > * {
+        flex: 1;
+    }
+    
+    .companies{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        max-width: 100%;
+        margin-bottom: 100px;
+    }
+    .companies img{
+        width: 100%;
+    }
+}
