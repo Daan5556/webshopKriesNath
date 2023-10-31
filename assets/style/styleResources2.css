@@ -108,3 +108,8 @@ h2{
 .contact form button:hover {
     background-color: #fd4124; 
 }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
