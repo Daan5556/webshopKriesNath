@@ -1,0 +1,60 @@
+.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    justify-items: center;
+    min-height: 100vh;
+    
+}
+.galleryItem{
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+    img{
+        max-width: 50vmin;
+    }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 10px;
+  
+}
+
+button{
+    background-color: #ec6753;
+    border: 0px;
+    padding: 10px;
+}
+
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.logo{
+    position: absolute;
+    width: 150px;
+    right: 0;
+
+}
+
+@media (max-width: 1000px){
+
+    img{
+        max-width:100%   ;
+    }
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
