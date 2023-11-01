@@ -87,6 +87,7 @@ h2{
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
+    resize: none;
 }
 
 .contact form textarea {
